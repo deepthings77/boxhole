@@ -2,55 +2,6 @@
 
 boxhole lets you use YouTube as a Infinite Cloud Storage. It embeds any files(Images, Videos, Documents, etc) into a video. The video can be uploaded to YouTube and the file can be retrieved from the video. A expansion & compression technique is used to defeat YouTube's compression algorithm. The file can be retrieved from the video without any loss of data.
 
-## Demo Video ([YouTube Link](https://youtu.be/NbeWh011qjs))
-
-![ezgif com-gif-maker](https://gateway.pinata.cloud/ipfs/Qmdo9ZW5uk6NDYWj8K6oNBABDNtBYZZagAxF9UmoxUQFwM)
-
-## ~~Virtual Environment Set Up~~ ❌ (... Not Required Now)
-
-### Create Virtual Environment
-
-```console
-python3 -m venv env
-```
-
-### Activate Virtual Environment
-
-```console
-source env/bin/activate
-```
-
-### Install Required Packages
-
-```console
-pip install -r requirements.txt
-```
-
-## ~~Compile C++ Library & Generate Python Bindings~~ ❌ (... Not Required Now)
-
-```console
-g++ -fPIC -shared DataProccessing/cLibs/helper.cpp -o DataProccessing/cLibs/c_lib.so
-```
-
-## boxhole CLI App ✅
-
-### Make the script executable
-
-```console
-chmod +x cli_app
-```
-
-### Run CLI App
-
-Make sure ```GCC``` compiler, ```Python 3```, ```pip```, Python ```venv``` is installed. \
-Now open terminal in the project directory and run the following command to complete the necessary setup and run the app.
-
-```console
-./cli_app
-```
-
-<img src="https://tomato-semantic-alligator-932.mypinata.cloud/ipfs/QmQdnLR9RmjFDLxb39VpqC8N5se9wbhPBRaLsd65uALVBD?_gl=1*1jcg77v*_ga*MjA2MjA3MzczMS4xNzA0NTQzNDQ0*_ga_5RMPXG14TE*MTcwNDU0MzQ0My4xLjEuMTcwNDU0MzU2NC42MC4wLjA.">
-
 ## How to Use? ✅
 
 Wait for the app to start.
